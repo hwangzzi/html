@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<!-- saved from url=(0050)file:///C:/Users/User/Desktop/code/HTML/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Required meta tags -->
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./스파르타코딩클럽 _ 부트스트랩 연습하기_files/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="./스파르타코딩클럽 _ 부트스트랩 연습하기_files/jquery.min.js.다운로드"></script>
+    <script src="./스파르타코딩클럽 _ 부트스트랩 연습하기_files/popper.min.js.다운로드" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="./스파르타코딩클럽 _ 부트스트랩 연습하기_files/bootstrap.min.js.다운로드" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <title>스파르타코딩클럽 | 부트스트랩 연습하기</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+<link href="./스파르타코딩클럽 _ 부트스트랩 연습하기_files/css2" rel="stylesheet">
+
+<style>
+    * {
+        font-family:'Roboto', sans-serif;
+        
+    }
+
+
+    .iphone {
+        font-weight: 900;
+     
+    }
+
+    .intro {
+        font-family: 'M PLUS 1p', sans-serif;
+        font-weight: 700;
+    }
+
+
+
+    .order {
+        background-color: plum;
+        border-radius: 5px;
+        width: 120px;
+        height: 40px;
+    }
+
+    .item-img {
+
+        display:block;
+        margin: 0;
+      background-color: pink;
+    }
+
+
+    .item-order {
+            display:block ;
+            padding-left: 100px;
+            width: 500px;
+    }
+</style>
+
+
+<script>
+    function order(){
+    alert('주문이 완료되었습니다!');
+    }
+    </script>
+
+
+
+
+
+</head><body>
+
+    
+    <div class="wrap">
+        <img src="./스파르타코딩클럽 _ 부트스트랩 연습하기_files/iphone-12-family-select-2021" class="item-img alt=" #"="">
+  
+
+<div class="item-order">
+
+    <h1 class="iphone">iphone 12 mini</h1>
+    <p class="intro">  smallest in the world, <br>
+        The thinnest and lightest 5G phone ever.</p>
+    <div>
+        <label for="name"> Orderer name</label>
+    <p><input type="text" class="name"></p>
+    </div>
+
+  <div>
+    <label for="count"> Quantity </label>
+    
+  </div>
+  <select class="custom-select" id="inputGroupSelect01">
+    <option selected="">-- choose the quantity --</option>
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    </select>
+
+
+   <div>
+    <label for="house"> Address</label>
+    <p><input type="text" class="house"></p>
+   </div>
+    
+
+   <div>
+    <label for="number"> Phone number</label>
+    <p><input type="text" class="number"></p>
+   </div>
+
+   <button class="order" "="" onclick="order()">Place an order</button>
+</div>
+    
+
+
+
+    </div>
+
+</body></html>
