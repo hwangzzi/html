@@ -1,2 +1,2 @@
-# 스파르타 코딩 실습 IPone Site
+# 스파르타 코딩 실습 iPone Site
 
